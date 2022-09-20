@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(161, 224, 224);
+    height: 100v;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100vw;
+    margin: 0 auto;
+    height: 8vw;
+}
+.logo{
+    font-size: 5vw;
+    font-weight: 700;
+    margin-left: 2vw;
+    margin-top: 1.3vw;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    padding-left: 3vw;
+    margin-right: 2vw;
+    padding-top: 1vw;
+    margin-top: 1.3vw;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 3vw;
+    
+}
+a:hover{
+    background-color: rgb(166, 166, 166);
+    opacity: ;
+}
+.logo:hover{
+    cursor: pointer;
+    color: rgb(11, 11, 11);
+    font-size: 5.1vw;
+}
+
+ /* main */
+    .main-left{
+            border-left: 0.8vw solid rgb(251, 0, 0);
+            margin-left: 2vw;
+            margin-top: 2vw;
+        }
+        .pname{
+            font-size: 4vw;
+            font-family: sans-serif;
+            font-weight: 700;
+            color: white;
+        }
+        .pline{
+            font-size: 2.3vw;
+            font-weight: 400;
+            font-family: Helvetica, sans-serif;
+            padding-left: 1vw;
+            font-weight: bold;
+        }
+        .main-left:hover{
+            cursor: pointer;
+        }
+        .pline:hover{
+            color: rgb(81, 73, 73);
+            font-size: 2vw;
+        }
+        .pname:hover{
+            font-size: 4.4vw;
+        }
+        /* box */
+        .main-right{
+            text-align: center;
+            justify-content: center;
+            border: 0.4vw solid white;
+            margin: 10vw 28vw;
+            padding: 1vw 1vw 15vw 1vw;
+            background-color: white;
+            border-radius: 2vw;
+        }
+        .name{
+            font-size: 5.5vw;
+            font-weight: 700;
+            margin-left: 2vw;
+            margin-top: 4vw;
+            padding-right: 4vw;
+        }
+        .name:hover{
+            cursor: pointer;
+            color: rgb(11, 11, 11);
+            font-size: 5.4vw;
+        }
+        .inputs{
+            padding-top: 8vw;
+        }
+        input{
+            border: nHone;
+            width: 30vw;
+            height: 5vw;
+            border-radius: 1.5vw;
+            border: .4vw solid rgb(161, 224, 224);
+            
+        }
+        ::placeholder{
+            padding-left: 2vw;
+        }
+        input:hover{
+            outline: none;
+        }
+        .btn{
+            border: .4vw solid rgb(161, 224, 224);
+            margin: 2vw 12vw 2vw 12vw;
+            border-radius: 1vw;
+            font-size: 3vw;
+            padding-top: .6vw;
+        }
+        .btn:hover{
+            color: White;
+            background-color: rgb(161, 224, 224);
+            
+            font-size: 2.9vw;
+        }
+        hr{
+            width: 50;
+        }
+        .forget{
+            font-size: 2.5vw;
+        }
+        .forget:hover{
+            color: red;
+            cursor: pointer;
+        }
